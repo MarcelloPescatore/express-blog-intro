@@ -24,7 +24,7 @@ axios
         markup += `
             <div class="box-post">
                 <h2>${objTitle}</h2>
-                <img src="${objUrl}" style="width: 250px; height: 200px">
+                <img src="${objUrl}" style="width: 200px; height: 150px">
             </div>
         `
     });
