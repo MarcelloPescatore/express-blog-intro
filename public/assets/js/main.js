@@ -23,7 +23,7 @@ axios
         // template literal
         markup += `
             <div class="box-post">
-                <h1>${objTitle}</h1>
+                <h2>${objTitle}</h2>
                 <img src="${objUrl}" style="width: 250px; height: 200px">
             </div>
         `

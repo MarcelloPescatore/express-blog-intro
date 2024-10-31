@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.posts{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box-post{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0;
+
+    h2{
+        padding: 1rem 0;
+    }
+}
