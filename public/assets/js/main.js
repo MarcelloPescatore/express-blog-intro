@@ -19,12 +19,15 @@ axios
         // prendo gli elementi dall'oggetto
         const objUrl = obj.img;
         const objTitle = obj.title;
+        const objContent= obj.content;
 
         // template literal
         markup += `
             <div class="box-post">
+
+                <img src="${objUrl}" style="width: 100%">
                 <h2>${objTitle}</h2>
-                <img src="${objUrl}" style="width: 200px; height: 150px">
+                <p> ${objContent} </p>
             </div>
         `
     });
