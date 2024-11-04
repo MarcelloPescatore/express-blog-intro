@@ -68,7 +68,7 @@ main{
 }
 
 .container{
-    width: 50%;
+    width: 40%;
     margin: auto;
     
 
@@ -93,7 +93,7 @@ main{
 
             h2{
                 font-family: "Inter", serif;
-                font-size: 30px;
+                font-size: 26px;
                 text-transform: uppercase;
                 padding: 1rem 0;
                 color: #252422;
@@ -101,7 +101,7 @@ main{
 
             p{
                 font-family: "Inter", serif;
-                font-size: 22px;
+                font-size: 18px;
             }
         }
     }

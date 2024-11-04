@@ -24,7 +24,6 @@ axios
         // template literal
         markup += `
             <div class="box-post">
-
                 <img src="${objUrl}" style="width: 100%">
                 <h2>${objTitle}</h2>
                 <p> ${objContent} </p>
